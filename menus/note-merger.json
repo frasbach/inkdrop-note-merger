@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle note-merger",
+        "command": "note-merger:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "note-merger",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "note-merger:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
